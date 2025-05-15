@@ -132,3 +132,12 @@ nav:hover {
     /* padding-top: 55px; */
     /* Show text when the container is hovered */
 }
+
+@media screen and (max-width: 1075px){
+    .overlay {
+        width: 80vw;
+        height: auto;
+        padding: 20px;
+        font-size: 15px;
+    }
+}
