@@ -38,7 +38,7 @@ body{
 }
 
 .header:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     opacity: 1.1;
 }
 
@@ -110,4 +110,24 @@ body{
     color: bisque;
     margin-left: 20px;
     margin-top: 12px;
+}
+
+@media screen and (max-width: 1075px){
+
+    .parent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div4{
+        width: 75vw;
+    }   
+
+    .div3{
+        display: none;
+        height: 0;
+        width: 0;
+    }
 }
