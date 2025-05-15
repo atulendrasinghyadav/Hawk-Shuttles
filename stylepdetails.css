@@ -121,6 +121,22 @@ body{
         justify-content: center;
     }
 
+    .div2{
+        height: auto;
+    }
+
+    .header{
+        font-size: 36px;
+    }
+
+    .text{
+        font-size: 28px;
+    }
+
+    .container{
+        width: 80vw;
+    }
+    
     .div4{
         width: 75vw;
     }   
